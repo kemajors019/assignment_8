@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShop", "PetShop\PetShop.csproj", "{C58B2F1A-2DAF-4568-BE72-D87B98602B8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E2594B5F-272C-4D34-AEEA-9C6F360EF1F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7F4F0BFB-D5DE-4F73-8884-A995830F8F83}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{BFCA09B3-0D4A-4725-B96E-D63A596CE333}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\PetShop.json = PublishScripts\Templates\PetShop.json
+		PublishScripts\Templates\PetShop.param.dev.json = PublishScripts\Templates\PetShop.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C58B2F1A-2DAF-4568-BE72-D87B98602B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58B2F1A-2DAF-4568-BE72-D87B98602B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58B2F1A-2DAF-4568-BE72-D87B98602B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58B2F1A-2DAF-4568-BE72-D87B98602B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F4F0BFB-D5DE-4F73-8884-A995830F8F83} = {E2594B5F-272C-4D34-AEEA-9C6F360EF1F5}
+		{BFCA09B3-0D4A-4725-B96E-D63A596CE333} = {E2594B5F-272C-4D34-AEEA-9C6F360EF1F5}
+	EndGlobalSection
+EndGlobal

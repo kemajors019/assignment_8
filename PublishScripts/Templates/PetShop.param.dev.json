@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "KEMPetShop"
+  },
+  "hostingPlanName": {
+    "value": "MyExamplePlan"
+  },
+  "siteLocation": {
+    "value": "East US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "f6b48bf7-3ce5-452a-a2dc-bb721458fae9"
+  },
+  "resourceGroup": {
+    "value": "MyExampleGroup"
+  }
+}
